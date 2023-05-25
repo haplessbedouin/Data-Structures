@@ -1,4 +1,3 @@
-package algorithmAnalysis;
 
 public class BigOSingleLoop {
     public static void main(String[] args) {
@@ -22,13 +21,13 @@ public class BigOSingleLoop {
         // Task 2 Nested Loops...................
         startTime=System.currentTimeMillis();
         for (int j = 0; j < n; j++) {
-            for (int i = 0; i < n ; i++) {
+             for (int i = 0; i < n ; i++) {
                 numberOfOperations+=1;
-            }
+             }
         }
         endTime=System.currentTimeMillis();
 
-        System.out.println( "Nested Loop Number of operations : "+numberOfOperations + " in "+ (endTime-startTime) +" milliseconds");
+        System.out.println( "Nested Loop Number of operations : "+numberOfOperations + " in "+ (endTime-startTime) +" miliseconds");
         // Task 2 End...................
 // ......................................................................................................
         // Task 3 Three Nested Loops...................
@@ -84,7 +83,7 @@ public class BigOSingleLoop {
         }
         endTime=System.currentTimeMillis();
         System.out.println( "Logarithmic Number of operations  : "+numberOfOperations + " in "+ (endTime-startTime) +" milliseconds");
-        // Task 5 End...................*/
+       // Task 5 End...................*/
     }
 }
 
